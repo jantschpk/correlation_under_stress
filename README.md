@@ -1,5 +1,9 @@
 # Report Paper Datenanalyse
 
+In this financial data analysis project, I tested whether stock correlations rise under market stress, building on academic research (Longin & Solnik 2001; Forbes & Rigobon 2002). I pulled daily price data for a sample of S&P 500 stocks, split trading days into calm and stress regimes using the VIX, and compared correlation structures across regimes and sectors. 
+
+Because returns turned out to be strongly non-normal and time-dependent, I used a block bootstrap instead of classical tests and checked my results with alternative correlation measures and different settings. I also looked critically at what the result can and cannot tell us, since part of the effect may stem from higher volatility itself.
+
 Nötige Dateien:
 - report_notebook.ipynb
 - bibliography.bib
