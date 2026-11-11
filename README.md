@@ -1,7 +1,7 @@
-# Hausarbeit Datenanalyse I
+# Report Paper Datenanalyse
 
 Nötige Dateien:
-- Tschapka_645515_DAI.ipynb
+- report_notebook.ipynb
 - bibliography.bib
 - sampling.py
 - bootstrap.py 
@@ -79,7 +79,7 @@ Bei fehlenden LaTeX-Paketen müssen diese gegebenenfalls nachinstalliert werden.
 ## PDF mit Quarto erzeugen
 Der Export direkt über die Kommandozeile erfolgen:
 
-quarto render Tschapka_645515_DAI.ipynb --to pdf
+quarto render report_paper.ipynb --to pdf
 
 
 ## Alternative: Export ohne Quarto
@@ -92,7 +92,7 @@ pip install jupyter
 
 Anschließend kann das Notebook beispielsweise in HTML umgewandelt werden:
 
-jupyter nbconvert Tschapka_645515_DAI.ipynb --to html
+jupyter nbconvert report_paper.ipynb --to html
 
 
 Diese Datei kann anschließend im Browser geöffnet oder weiterverarbeitet werden. Vorsicht: Hier ist die Formatierung nicht richtig!
